@@ -1,0 +1,35 @@
+body{
+
+    margin: 10px;
+    background-color: #2F503D; 
+}
+
+.links{
+    background-color: #2F503D; 
+    font-family: 'League Gothic', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: background.4s;
+    height: 20px;
+    padding-bottom: 10px;
+}
+
+.foto{
+   background-color: #667249;
+   width: 290px;
+   height: 290px;
+   border-radius: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;  
+}
+
+.foto:hover{
+        box-shadow: inset 0 0 0 25px #ffffff;
+}
+
+.texts{
+    color: white;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+}
