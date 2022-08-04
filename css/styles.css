@@ -10,11 +10,11 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     transition: background.4s;
-    height: 20px;
+    height: 100px;
     padding-bottom: 10px;
 }
 
-.foto{
+#foto{
    background-color: #667249;
    width: 290px;
    height: 290px;
@@ -24,11 +24,11 @@ body{
    cursor: pointer;  
 }
 
-.foto:hover{
+#foto:hover{
         box-shadow: inset 0 0 0 25px #ffffff;
 }
 
-.texts{
+#conteudo{
     color: white;
     text-align: center;
     font-family: 'League Gothic', sans-serif;
