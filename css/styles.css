@@ -1,35 +1,44 @@
-body{
-
-    margin: 10px;
-    background-color: #2F503D; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#menu{
-    background-color: #2F503D; 
-    font-family: 'League Gothic', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    transition: background.4s;
-    height: 100px;
-    padding-bottom: 10px;
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #4a6343;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
 }
 
-#foto{
-   background-color: #667249;
-   width: 290px;
-   height: 290px;
-   border-radius: 90%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;  
+nav .logo{
+    color: wheat;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-#foto:hover{
-        box-shadow: inset 0 0 0 25px #ffffff;
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
-#conteudo{
-    color: white;
-    text-align: center;
-    font-family: 'League Gothic', sans-serif;
+nav ul li{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
