@@ -1,4 +1,6 @@
-.bd-placeholder-img {
+body{
+    background-color: black;
+}.bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
@@ -29,6 +31,10 @@
   .bi {
     vertical-align: -.125em;
     fill: currentColor;
+  }
+
+nav .bg-dark{
+    background-color: black;
   }
 
   .nav-scroller {
